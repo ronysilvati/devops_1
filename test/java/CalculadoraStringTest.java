@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package devops_1;
+package java;
 
-import devops_1.CalculadoraString;
+import main.java.CalculadoraString;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
