@@ -30,3 +30,11 @@ jar {
     attributes 'Main-Class': 'com.laboon.CoffeeMaker'
   }
 }
+
+sourceSets {
+    test {
+        java {
+            srcDirs = ["test/javas"]  // Note @Peter's comment below
+        }
+    }
+}

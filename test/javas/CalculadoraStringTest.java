@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java;
+package javas;
 
 import main.java.CalculadoraString;
 import org.junit.After;
@@ -30,6 +30,8 @@ import static org.junit.Assert.*;
  *
  * @author visitante
  */
+
+
 public class CalculadoraStringTest {
     
     public CalculadoraStringTest() {
@@ -176,7 +178,7 @@ public class CalculadoraStringTest {
         CalculadoraString cs = new CalculadoraString();
         
         
-        assertEquals("3", cs.adicionar("2,99123"));
+        assertEquals("2", cs.adicionar("2,99123"));
     }
 
 
