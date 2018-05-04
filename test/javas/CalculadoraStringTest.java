@@ -178,7 +178,7 @@ public class CalculadoraStringTest {
         CalculadoraString cs = new CalculadoraString();
         
         
-        assertEquals("2", cs.adicionar("2,99123"));
+        assertEquals("3", cs.adicionar("2,99123"));
     }
 
 
